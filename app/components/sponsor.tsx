@@ -1,6 +1,6 @@
 export default function SponsorSection() {
   return (
-    <section id="sponsor" className="px-6 py-12 text-center">
+    <section id="sponsor" className="px-6 py-12 text-center scroll-mt-20">
       <h2 className="text-8xl items-center justify-center flex md:justify-start px-6 mb-0" style={{ fontFamily: '"Road Rage", sans-serif' }}>Sponsor Us</h2>
       <p className="mb-8 text-2xl flex px-6" style={{ fontFamily: "'Rockwell', 'Serif', serif" }}>
         If you find openCSE useful, consider supporting us to keep the project alive:

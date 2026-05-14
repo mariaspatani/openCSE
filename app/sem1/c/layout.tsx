@@ -13,14 +13,14 @@ export default function Sem1CLayout({ children }: { children: React.ReactNode })
       {/* Navigation Bar */}
       <Navbar />
 
-      <div className="flex flex-1">
+      <div className="flex bg-[#1b0d00] flex-1">
         {/* Sidebar */}
         <Sidebar />
 
         {/* Main Area */}
         <div className="flex-1 flex flex-col">
           {/* Page Content */}
-          <main className="flex-1 overflow-y-auto px-6">
+          <main className="flex-1 overflow-y-auto px- 6">
             {children}
           </main>
         </div>

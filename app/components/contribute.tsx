@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function ContributionsSection() {
   return (
-    <section id="contribute" className="px-6 py-12 text-center">
+    <section id="contribute" className="px-6 py-12 text-center scroll-mt-20">
       <h2 className="text-8xl flex px-6 mb-0" style={{ fontFamily: '"Road Rage", sans-serif' }}>Contributions are Welcome!</h2>
       <p className="mb-8 text-2xl flex px-6" style={{ fontFamily: "'Rockwell', 'Serif', serif" }}>
         openCSE is community-driven. Want to add or improve docs? Contribute on GitHub.

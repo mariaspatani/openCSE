@@ -129,7 +129,7 @@ export default function SubjectsSection() {
   return (
     <section id="subjects" className="px-6 py-12 text-center">
       <h2
-        className="text-8xl flex px-6 mb-0"
+        className="text-7xl flex px-6 mb-0"
         style={{ fontFamily: '"Road Rage", sans-serif' }}
       >
         Browse Subjects

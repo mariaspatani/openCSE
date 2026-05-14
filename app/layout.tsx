@@ -1,5 +1,5 @@
 // app/layout.tsx
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +16,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "openCSE",
   description: "Free and Open Documentations for CSE subjects",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 0,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 export default function RootLayout({

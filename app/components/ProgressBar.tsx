@@ -25,19 +25,17 @@ export default function ProgressBar() {
 
     window.addEventListener('scroll', handleScroll);
     
-    // Recalculate immediately AND every time the user changes chapters
     handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [pathname]); // <--- THIS FIXES THE NAVIGATION BUG
+  }, [pathname]);
 
   if (!pathname.startsWith('/sem')) {
     return null;
   }
 
   return (
-    // z-[99999] guarantees it sits on top of their Navbar
-    // pointer-events-none ensures it doesn't block users from clicking things
+    
     <div className="fixed top-0 left-0 w-full h-1.5 z-[99999] bg-black/20 pointer-events-none">
       <div 
         className="h-full transition-all duration-150 ease-out"

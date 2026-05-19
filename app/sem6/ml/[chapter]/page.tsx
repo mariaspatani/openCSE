@@ -20,6 +20,13 @@ import { NaiveBayesContent } from "../content/naive-bayes";
 import { DecisionTreesContent } from "../content/decision-trees";
 import { SvmContent } from "../content/svm";
 import { RecommendationSystemsContent } from "../content/recommendation-systems";
+import { Chapter4Content } from "../content/chapter4";
+import { IntroUnsupervisedContent } from "../content/intro-unsupervised";
+import { KMeansContent } from "../content/kmeans";
+import { KMedoidsContent } from "../content/kmedoids";
+import { HierarchicalContent } from "../content/hierarchical";
+import { AprioriContent } from "../content/apriori";
+import { AnomalyDetectionContent } from "../content/anomaly-detection";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 import { chapters, Chapter, SubTopic } from "../constants";
 
@@ -63,6 +70,13 @@ const chapterComponents: Record<string, React.ComponentType> = {
   "ch3-decision-trees": DecisionTreesContent,
   "ch3-svm": SvmContent,
   "ch3-recommendation-systems": RecommendationSystemsContent,
+  "ch4": Chapter4Content,
+  "ch4-intro": IntroUnsupervisedContent,
+  "ch4-kmeans": KMeansContent,
+  "ch4-kmedoids": KMedoidsContent,
+  "ch4-hierarchical": HierarchicalContent,
+  "ch4-apriori": AprioriContent,
+  "ch4-anomaly-detection": AnomalyDetectionContent,
 };
 
 type ChapterProps = {

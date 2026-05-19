@@ -38,4 +38,16 @@ export const chapters: Chapter[] = [
       { id: "ch3-recommendation-systems", title: "Recommendation Systems", isPage: true },
     ],
   },
+  {
+    id: "ch4",
+    title: "Unsupervised Learning",
+    subTopics: [
+      { id: "ch4-intro", title: "Intro to Unsupervised Learning", isPage: true },
+      { id: "ch4-kmeans", title: "K-Means Clustering", isPage: true },
+      { id: "ch4-kmedoids", title: "K-Medoids Clustering", isPage: true },
+      { id: "ch4-hierarchical", title: "Hierarchical Clustering", isPage: true },
+      { id: "ch4-apriori", title: "Apriori Algorithm", isPage: true },
+      { id: "ch4-anomaly-detection", title: "Anomaly Detection", isPage: true },
+    ],
+  },
 ];

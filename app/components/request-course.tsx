@@ -2,7 +2,7 @@ export default function RequestCourse() {
   return (
     <section className="py-4 text-center">
       <h2 className="text-4xl font-bold">
-        Can't find a course?
+        Can&apos;t find a course?
       </h2>
 
       <p className="mt-5 text-[#ffffff]">

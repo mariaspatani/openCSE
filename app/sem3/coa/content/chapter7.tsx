@@ -117,7 +117,7 @@ export const Ch7Content = () => {
         <h3 className="section-heading">4. Virtual Memory and Address Translation</h3>
 
         <p className="p-text mb-4">
-          <strong>Virtual Memory</strong> is an architectural abstraction that uses main memory as a cache for the disk drive, dividing address space into fixed-size <strong>Virtual Pages</strong> mapping to RAM <strong>Physical Page Frames</strong>. When a requested page isn't in RAM, a <strong>Page Fault</strong> occurs.
+          <strong>Virtual Memory</strong> is an architectural abstraction that uses main memory as a cache for the disk drive, dividing address space into fixed-size <strong>Virtual Pages</strong> mapping to RAM <strong>Physical Page Frames</strong>. When a requested page isn&apos;t in RAM, a <strong>Page Fault</strong> occurs.
         </p>
 
         <h4 className="font-semibold text-xl mt-6 mb-3 text-[#e2d1c1]">Translation Mechanics</h4>

@@ -7,7 +7,7 @@ export const Ch6Content = () => {
         This module explores the foundational technique used to accelerate processor throughput:
         <strong> Pipelining</strong>. By overlapping the execution of multiple instructions,
         a processor can achieve significant theoretical speedups. Learners will analyze the
-        canonical 5-stage MIPS pipeline, identify the "big three" hazards (Structural, Data,
+        canonical 5-stage MIPS pipeline, identify the &quot;big three&quot; hazards (Structural, Data,
         and Control), and examine exception handling.
       </p>
 
@@ -104,7 +104,7 @@ export const Ch6Content = () => {
             </p>
             <ul className="list-disc pl-5 text-sm space-y-1">
               <li><strong>Example:</strong> <code className="bg-[#e8cd9c] px-1 rounded">add $s0, $t0, $t1</code> followed immediately by <code className="bg-[#e8cd9c] px-1 rounded">sub $t2, $s0, $t3</code>. The sub needs $s0 before the add writes it back.</li>
-              <li><strong>Solution 1:</strong> Forwarding (Bypassing) - passing the result directly from the ALU to the next stage's input before write-back.</li>
+              <li><strong>Solution 1:</strong> Forwarding (Bypassing) - passing the result directly from the ALU to the next stage&apos;s input before write-back.</li>
               <li><strong>Solution 2:</strong> Stalling (Bubble) - inserting a delay until data is available.</li>
             </ul>
           </div>

@@ -5,14 +5,14 @@ export const Ch4Content = () => {
       <p className="p-text">
         <span className="font-semibold">Module IV: Computer Arithmetic</span>
         . This module explores how numbers are structurally represented and mathematically
-        manipulated at the hardware level. It covers two's complement signed integers, sign extension,
+        manipulated at the hardware level. It covers two&apos;s complement signed integers, sign extension,
         overflow detection, multiplication/division hardware, and IEEE 754 floating-point representation.
       </p>
 
       <hr className="my-6 border-[#c7a669] opacity-40" />
 
       <section>
-        <h3 className="section-heading">1. Number Representation & Two's Complement</h3>
+        <h3 className="section-heading">1. Number Representation & Two&apos;s Complement</h3>
 
         <p className="p-text">
           Modern processors use fixed bit-width systems (e.g., 32-bit MIPS words) to manipulate numbers.
@@ -29,7 +29,7 @@ export const Ch4Content = () => {
           Range: <strong>0</strong> to <strong>4,294,967,295</strong> (2<sup>32</sup> - 1)
         </p>
 
-        <h4 className="font-semibold text-xl mt-6 mb-3">Signed Integers (Two's Complement)</h4>
+        <h4 className="font-semibold text-xl mt-6 mb-3">Signed Integers (Two&apos;s Complement)</h4>
         <p className="p-text">
           To handle negative numbers efficiently, the most significant bit (bit 31, the <strong>Sign Bit</strong>)
           acts as a negative weight:

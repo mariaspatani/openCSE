@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Righteous } from "next/font/google";
+import BookmarkButton from "../../../components/BookmarkButton";
 
 import { Ch0Content } from "../content/chapter0";
 import { Ch1Content } from "../content/chapter1";
@@ -53,9 +54,12 @@ export default function ChapterPage({ params }: ChapterProps) {
           Data Structures using C
         </h1>
 
-        <p className={`text-2xl mt-[-8px] ${righteous.className}`}>
-          {chapter.title}
-        </p>
+        <div className="flex items-center justify-between">
+          <p className={`text-2xl mt-[-8px] ${righteous.className}`}>
+            {chapter.title}
+          </p>
+          <BookmarkButton  title={`DSC: ${chapter.title}`} />
+        </div>
 
         {/* Navigation */}
         <div className="flex justify-between mt-3">

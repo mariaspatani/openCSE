@@ -10,7 +10,7 @@ import { moduleQuizzes } from "@/lib/quizData";
 import ChapterQuizInline from "../components/ChapterQuizInline";
 import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 import { Righteous } from "next/font/google";
-
+import BookmarkButton from "../../../components/BookmarkButton";
 const righteous = Righteous({
       subsets: ['latin'], 
       weight: '400', 
@@ -29,11 +29,12 @@ const chapters = [
 ];
 
 type ChapterProps = {
-  params: { chapter: string };
+  params: Promise<{ chapter: string }>;
 };
 
-export default function ChapterPage({ params }: ChapterProps) {
-  const currentIndex = chapters.findIndex((c) => c.id === params.chapter);
+export default async function ChapterPage({ params }: ChapterProps) {
+  const { chapter: chapterId } = await params;
+  const currentIndex =  chapters.findIndex((c) => c.id === chapterId);
   const chapter = chapters[currentIndex];
 
   if (!chapter) {
@@ -62,7 +63,12 @@ export default function ChapterPage({ params }: ChapterProps) {
         <h1 className={`text-4xl font-bold ${righteous.className} mb-2`}>
           Programming in C 
         </h1>
-        <p className={`text-2xl mt-[-8] ${righteous.className}`}>{chapter.title}</p>
+       <div className="flex items-center justify-between">
+  <p className={`text-2xl mt-[-8px] ${righteous.className}`}>
+    {chapter.title}
+  </p>
+  <BookmarkButton title={`C Programming : ${chapter.title}`} />
+</div>
 
         {/* Navigation Buttons */}
         <div className="flex justify-between mt-3">

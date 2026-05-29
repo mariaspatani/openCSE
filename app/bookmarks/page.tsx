@@ -1,5 +1,6 @@
 "use client";
 import { useBookmarks } from "../hooks/useBookmarks";
+import Navbar from "@/app/components/navbar";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Road_Rage } from "next/font/google";
@@ -19,6 +20,7 @@ export default function BookmarksPage() {
 
   return (
     <div className="p-8 pt-24 min-h-screen bg-[#1B0D00] text-[#FAE8D7]">
+            <Navbar />
         <Link 
         href="/" 
         className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-[#e2d1c1] text-[#1b0d00] rounded hover:bg-[#ac9e91] transition font-bold"

@@ -54,7 +54,7 @@ export default async function ChapterPage({ params }: ChapterProps) {
     ch6: "c-file-memory-preprocessors",
   };
 
-  const chapterQuiz = moduleQuizzes.find((quiz) => quiz.slug === chapterQuizSlugMap[params.chapter]);
+  const chapterQuiz = moduleQuizzes.find(async (quiz) => quiz.slug === chapterQuizSlugMap[(await params).chapter]);
 
   return (
     <div className="flex flex-col bg-[#1B0D00] min-h-full p-2 pt-6 text-[#e2d1c1]">

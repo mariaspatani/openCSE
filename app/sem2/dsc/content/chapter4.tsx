@@ -258,7 +258,7 @@ Output : A → B → C`}
 
                 <ul className="section-list">
                     <li>Operating system scheduling</li>
-                    <li>Dijkstra's shortest path algorithm</li>
+                    <li>Dijkstra&apos;s shortest path algorithm</li>
                     <li>Network routing</li>
                 </ul>
 

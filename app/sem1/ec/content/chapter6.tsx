@@ -18,7 +18,7 @@ export const Ch6Content = () => {
             <strong>Structure of an Effective Presentation:</strong>
             <ul className="section-list pl-6 pt-1">
               <li><strong>Introduction</strong> — Hook the audience: start with a question, quote, or surprising fact. State what you will cover.</li>
-              <li><strong>Body</strong> — Present 3–5 key points logically. Use transitions: <code className="inline-code">"Moving on to...", "Another important point is..."</code></li>
+              <li><strong>Body</strong> — Present 3–5 key points logically. Use transitions: <code className="inline-code">&quot;Moving on to...&quot;, &quot;Another important point is...&quot;</code></li>
               <li><strong>Conclusion</strong> — Summarize key points, end with a call to action or memorable statement.</li>
             </ul>
           </li>
@@ -71,17 +71,17 @@ export const Ch6Content = () => {
             <strong>How to Initiate:</strong>
             <ul className="section-list pl-6 pt-1">
               <li>Starting confidently leaves a strong first impression.</li>
-              <li>Use a definition, statistic, or relevant quote to open. e.g. <code className="inline-code">"According to WHO, 60% of global deaths are linked to lifestyle diseases. Today&apos;s topic directly addresses this..."</code></li>
+              <li>Use a definition, statistic, or relevant quote to open. e.g. <code className="inline-code">&quot;According to WHO, 60% of global deaths are linked to lifestyle diseases. Today&apos;s topic directly addresses this...&quot;</code></li>
             </ul>
           </li>
           <li>
             <strong>During the GD:</strong>
             <ul className="section-list pl-6 pt-1">
               <li>Listen actively — acknowledge others&apos; points before countering.</li>
-              <li>Be assertive, not aggressive: <code className="inline-code">"I understand your point, however..."</code></li>
+              <li>Be assertive, not aggressive: <code className="inline-code">&quot;I understand your point, however...&quot;</code></li>
               <li>Stay on topic — avoid irrelevant tangents.</li>
               <li>Back your points with facts, examples, or data.</li>
-              <li>Invite quieter members: <code className="inline-code">"I&apos;d like to hear what Priya thinks about this."</code></li>
+              <li>Invite quieter members: <code className="inline-code">&quot;I&apos;d like to hear what Priya thinks about this.&quot;</code></li>
             </ul>
           </li>
           <li>
@@ -89,7 +89,7 @@ export const Ch6Content = () => {
             <ul className="section-list pl-6 pt-1">
               <li>Summarizing at the end shows leadership and listening skills.</li>
               <li>Cover all viewpoints briefly, do not add new points.</li>
-              <li>e.g. <code className="inline-code">"To summarize our discussion, we explored three main perspectives..."</code></li>
+              <li>e.g. <code className="inline-code">&quot;To summarize our discussion, we explored three main perspectives...&quot;</code></li>
             </ul>
           </li>
           <li>
@@ -131,19 +131,19 @@ export const Ch6Content = () => {
             <strong>Common Interview Questions and Answers:</strong>
             <ul className="section-list pl-6 pt-1">
               <li>
-                <code className="inline-code">"Tell me about yourself."</code> — Prepare a 60-second professional summary: background → education → key skills → why you&apos;re here.
+                <code className="inline-code">&quot;Tell me about yourself.&quot;</code> — Prepare a 60-second professional summary: background → education → key skills → why you&apos;re here.
               </li>
               <li>
-                <code className="inline-code">"What are your strengths?"</code> — Give 2–3 genuine strengths with examples. e.g. <code className="inline-code">"I am a quick learner. During my internship, I picked up React in two weeks."</code>
+                <code className="inline-code">&quot;What are your strengths?&quot;</code> — Give 2–3 genuine strengths with examples. e.g. <code className="inline-code">&quot;I am a quick learner. During my internship, I picked up React in two weeks.&quot;</code>
               </li>
               <li>
-                <code className="inline-code">"What are your weaknesses?"</code> — Be honest but show improvement. e.g. <code className="inline-code">"I used to struggle with public speaking, so I joined my college debate club and have significantly improved."</code>
+                <code className="inline-code">&quot;What are your weaknesses?&quot;</code> — Be honest but show improvement. e.g. <code className="inline-code">&quot;I used to struggle with public speaking, so I joined my college debate club and have significantly improved.&quot;</code>
               </li>
               <li>
-                <code className="inline-code">"Why do you want to join this company?"</code> — Show genuine research and alignment. e.g. <code className="inline-code">"I admire your work in AI-driven healthcare and want to contribute to that mission."</code>
+                <code className="inline-code">&quot;Why do you want to join this company?&quot;</code> — Show genuine research and alignment. e.g. <code className="inline-code">&quot;I admire your work in AI-driven healthcare and want to contribute to that mission.&quot;</code>
               </li>
               <li>
-                <code className="inline-code">"Where do you see yourself in 5 years?"</code> — Show ambition aligned with the role. e.g. <code className="inline-code">"I aim to grow into a senior developer role and eventually lead a product team."</code>
+                <code className="inline-code">&quot;Where do you see yourself in 5 years?&quot;</code> — Show ambition aligned with the role. e.g. <code className="inline-code">&quot;I aim to grow into a senior developer role and eventually lead a product team.&quot;</code>
               </li>
             </ul>
           </li>
@@ -154,7 +154,7 @@ export const Ch6Content = () => {
               <li><strong>T</strong>ask — What was your responsibility?</li>
               <li><strong>A</strong>ction — What did you do specifically?</li>
               <li><strong>R</strong>esult — What was the outcome?</li>
-              <li><strong>Example:</strong> Q: <code className="inline-code">"Tell me about a time you worked under pressure."</code> A: <code className="inline-code">"During our final year project (S), I was responsible for the backend (T). Our server crashed two days before submission, so I stayed up reconfiguring it (A), and we submitted on time with full marks (R)."</code></li>
+              <li><strong>Example:</strong> Q: <code className="inline-code">&quot;Tell me about a time you worked under pressure.&quot;</code> A: <code className="inline-code">&quot;During our final year project (S), I was responsible for the backend (T). Our server crashed two days before submission, so I stayed up reconfiguring it (A), and we submitted on time with full marks (R).&quot;</code></li>
             </ul>
           </li>
           <li>
@@ -164,7 +164,7 @@ export const Ch6Content = () => {
               <li>Maintain eye contact and sit upright.</li>
               <li>Listen carefully before answering — it&apos;s fine to take 2–3 seconds to think.</li>
               <li>Never speak negatively about previous employers or colleges.</li>
-              <li>End with: <code className="inline-code">"Thank you for this opportunity. I look forward to hearing from you."</code></li>
+              <li>End with: <code className="inline-code">&quot;Thank you for this opportunity. I look forward to hearing from you.&quot;</code></li>
               <li>Send a follow-up thank-you email within 24 hours.</li>
             </ul>
           </li>

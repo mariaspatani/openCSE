@@ -15,7 +15,7 @@ export const Ch1Content = () => {
         <p className="p-text">Lecture 1</p>
         <ul className="section-list">
           <li>Communication is the process of exchanging information, ideas, feelings, or thoughts between two or more people.</li>
-          <li>The word "communication" comes from the Latin word <strong>communicare</strong>, meaning "to share".</li>
+          <li>The word &quot;communication&quot; comes from the Latin word <strong>communicare</strong>, meaning &quot;to share&quot;.</li>
           <li>Effective communication requires a <strong>sender</strong>, a <strong>message</strong>, a <strong>medium</strong>, and a <strong>receiver</strong>.</li>
           <li>Communication is a two-way process — it is only complete when the receiver understands the message and provides feedback.</li>
         </ul>
@@ -51,7 +51,7 @@ export const Ch1Content = () => {
           <li>
             <strong>Informal Communication</strong> — Casual, unstructured interaction.
             <ul className="section-list pl-6 pt-1">
-              <li>Also called the "grapevine" in organizations.</li>
+              <li>Also called the &quot;grapevine&quot; in organizations.</li>
               <li>Examples: conversations between friends, informal chats.</li>
             </ul>
           </li>

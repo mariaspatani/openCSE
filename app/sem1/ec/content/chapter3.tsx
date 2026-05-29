@@ -18,13 +18,13 @@ export const Ch3Content = () => {
             <strong>Tone</strong> — The attitude conveyed through voice.
             <ul className="section-list pl-6 pt-1">
               <li>A confident tone commands attention; a nervous tone loses credibility.</li>
-              <li>Example: Saying <code className="inline-code">"I need this done."</code> assertively vs. hesitantly changes the impact entirely.</li>
+              <li>Example: Saying <code className="inline-code">&quot;I need this done.&quot;</code> assertively vs. hesitantly changes the impact entirely.</li>
             </ul>
           </li>
           <li>
             <strong>Clarity</strong> — Speaking in an organized, structured manner.
             <ul className="section-list pl-6 pt-1">
-              <li>Avoid filler words like "um", "uh", "you know".</li>
+              <li>Avoid filler words like &quot;um&quot;, &quot;uh&quot;, &quot;you know&quot;.</li>
               <li>Structure your speech: Opening → Main Point → Conclusion.</li>
             </ul>
           </li>
@@ -51,7 +51,7 @@ export const Ch3Content = () => {
             <strong>Active Listening</strong> — A critical part of verbal communication.
             <ul className="section-list pl-6 pt-1">
               <li>Involves giving full attention, nodding, paraphrasing, and asking relevant questions.</li>
-              <li>Example: After a colleague explains a problem, say <code className="inline-code">"So what you mean is..."</code> to confirm understanding.</li>
+              <li>Example: After a colleague explains a problem, say <code className="inline-code">&quot;So what you mean is...&quot;</code> to confirm understanding.</li>
             </ul>
           </li>
         </ul>
@@ -114,12 +114,12 @@ export const Ch3Content = () => {
               <li><strong>Pitch</strong> — High pitch may indicate excitement or nervousness; low pitch conveys authority.</li>
               <li><strong>Rhythm</strong> — Varied rhythm keeps the listener engaged.</li>
               <li><strong>Pauses</strong> — Strategic pauses add emphasis and allow the listener to absorb information.</li>
-              <li><strong>Filler Words</strong> — "um", "uh", "like" — should be minimized in professional speech.</li>
+              <li><strong>Filler Words</strong> — &quot;um&quot;, &quot;uh&quot;, &quot;like&quot; — should be minimized in professional speech.</li>
               <li><strong>Laughter / Sighs</strong> — Convey emotion and personality.</li>
             </ul>
           </li>
           <li>
-            <strong>Example:</strong> The sentence <code className="inline-code">"I didn&apos;t say she stole the money"</code> changes meaning entirely depending on which word is stressed.
+            <strong>Example:</strong> The sentence <code className="inline-code">&quot;I didn&apos;t say she stole the money&quot;</code> changes meaning entirely depending on which word is stressed.
           </li>
         </ul>
       </section>

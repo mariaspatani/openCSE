@@ -57,22 +57,22 @@ export const Ch4Content = () => {
             <strong>Main Idea</strong> — The central point or argument of a passage.
             <ul className="section-list pl-6 pt-1">
               <li>Usually found in the <strong>topic sentence</strong> — often the first sentence of a paragraph.</li>
-              <li>Ask yourself: <code className="inline-code">"What is this paragraph mainly about?"</code></li>
-              <li><strong>Example:</strong> In a paragraph about climate change, the main idea might be: "Human activities are the primary cause of global warming."</li>
+              <li>Ask yourself: <code className="inline-code">&quot;What is this paragraph mainly about?&quot;</code></li>
+              <li><strong>Example:</strong> In a paragraph about climate change, the main idea might be: &quot;Human activities are the primary cause of global warming.&quot;</li>
             </ul>
           </li>
           <li>
             <strong>Supporting Details</strong> — Facts, examples, statistics, or explanations that back the main idea.
             <ul className="section-list pl-6 pt-1">
               <li>Look for signal words: <code className="inline-code">for example, furthermore, in addition, because, therefore</code>.</li>
-              <li><strong>Example:</strong> "Carbon dioxide emissions have risen by 40% since 1990" supports the climate change main idea.</li>
+              <li><strong>Example:</strong> &quot;Carbon dioxide emissions have risen by 40% since 1990&quot; supports the climate change main idea.</li>
             </ul>
           </li>
           <li>
             <strong>Distinguishing Fact from Opinion:</strong>
             <ul className="section-list pl-6 pt-1">
-              <li>Fact: can be verified. e.g. <code className="inline-code">"The Earth&apos;s average temperature has risen by 1.1°C."</code></li>
-              <li>Opinion: expresses a viewpoint. e.g. <code className="inline-code">"Governments should do more about climate change."</code></li>
+              <li>Fact: can be verified. e.g. <code className="inline-code">&quot;The Earth&apos;s average temperature has risen by 1.1°C.&quot;</code></li>
+              <li>Opinion: expresses a viewpoint. e.g. <code className="inline-code">&quot;Governments should do more about climate change.&quot;</code></li>
             </ul>
           </li>
         </ul>
@@ -87,8 +87,8 @@ export const Ch4Content = () => {
           <li>
             <strong>Inference</strong> — Drawing conclusions from clues in the text that are not directly stated.
             <ul className="section-list pl-6 pt-1">
-              <li>Ask: <code className="inline-code">"What does the author imply?"</code> or <code className="inline-code">"What can I conclude from this?"</code></li>
-              <li><strong>Example:</strong> If a passage says "She arrived at the office at 6 AM, long before her colleagues," you can infer she is hardworking or dedicated.</li>
+              <li>Ask: <code className="inline-code">&quot;What does the author imply?&quot;</code> or <code className="inline-code">&quot;What can I conclude from this?&quot;</code></li>
+              <li><strong>Example:</strong> If a passage says &quot;She arrived at the office at 6 AM, long before her colleagues,&quot; you can infer she is hardworking or dedicated.</li>
             </ul>
           </li>
           <li>
@@ -108,7 +108,7 @@ export const Ch4Content = () => {
           <li>
             <strong>Vocabulary in Context</strong> — Use surrounding sentences to guess the meaning of unfamiliar words.
             <ul className="section-list pl-6 pt-1">
-              <li><strong>Example:</strong> <code className="inline-code">"The engineer was meticulous, checking every calculation twice."</code> — "meticulous" means careful/precise, inferred from context.</li>
+              <li><strong>Example:</strong> <code className="inline-code">&quot;The engineer was meticulous, checking every calculation twice.&quot;</code> — &quot;meticulous&quot; means careful/precise, inferred from context.</li>
             </ul>
           </li>
         </ul>
